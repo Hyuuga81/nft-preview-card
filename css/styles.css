@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/************************ STRUCTURE ************************/
+html {
+    font-size: 18px;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+    background-color: #0d192b;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.container {
+    width: 88%;
+    margin: 60px 0;
+    background-color: #14253d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    border-radius: 25px;
+}
+
+.packaging {
+    width: 84%;
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.image-under {
+    background: url('../img/image-equilibrium.jpg') center no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    cursor: pointer;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    border-radius: 15px;
+}
+
+.image-under:hover {
+    background: linear-gradient(rgba(0, 255, 247, 0.6), rgba(0, 255, 247, 0.6)), url('../img/image-equilibrium.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.image-under:hover .overlay {
+    display: block;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay img {
+    width: 100%;
+}
+
+
+
+
+
+h1 {
+    padding: 25px 0;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: #00fff7;
+}
+
+p {
+    padding-bottom: 25px;
+    color: #8bacda;
+}
+
+/******************* COUNTDOWN **********************/
+.countdown {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-flow: row wrap;
+}
+
+/********************* VALUE ************************/
+.value {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+
+.value img {
+    width: 15%;
+    /*padding-right: 5px;*/
+}
+
+.value p {
+    width: 70%;
+    font-size: .8em;
+    /*padding-top: 25px;*/
+    color: #00fff7;
+}
+
+/******************** COUNTER ********************/
+.counter {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+}
+
+.counter img {
+    width: 20%;
+    padding-right: 5px;
+}
+
+.counter p {
+    width: 70%;
+    font-size: .8em;
+    /*padding-top: 25px;*/
+    color: #8bacda;
+}
+
+/******************* CREATOR *******************/
+.creator {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    border-top: .1px solid #8bacda;
+    padding-top: 15px;
+}
+
+.creator img {
+    width: 12%;
+}
+
+.creator p {
+    width: 65%;
+    padding-left: 10px;
+    padding-top: 15px;
+    color: #8bacda;
+}
+
+.creator p span {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.creator p span:hover {
+    color: #00fff7;
+}
+
