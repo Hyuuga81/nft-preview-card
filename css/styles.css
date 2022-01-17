@@ -89,10 +89,6 @@ img {
     width: 100%;
 }
 
-
-
-
-
 h1 {
     padding: 25px 0;
     cursor: pointer;
@@ -190,3 +186,16 @@ p {
     color: #00fff7;
 }
 
+/************************ TABLET STYLES *************************/
+@media (min-width: 768px) {
+    .container {
+        width: 45%;
+    }
+}
+
+/************************ DESKTOP STYLES ************************/
+@media (min-width: 1200px) {
+    .container {
+        width: 25%;
+    }
+}
