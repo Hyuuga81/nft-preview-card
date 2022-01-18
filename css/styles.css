@@ -36,7 +36,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 .packaging {
